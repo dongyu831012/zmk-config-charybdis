@@ -1,10 +1,8 @@
 #include <dt-bindings/zmk/matrix_transform.h>
-#include <physical_layouts.dtsi>
 
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &charybdis;
         zmk,matrix_transform = &default_transform;
     }; 
 
@@ -42,4 +40,5 @@
             ;
     };
 };
+
 
